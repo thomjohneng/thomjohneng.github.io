@@ -13,6 +13,7 @@ body {
 	top: 18%;
 	transform: translate(-50%,-50%);
 	height: 150px;
+	animation-delay: 0.2s;
 }
 
 .title {
@@ -31,6 +32,7 @@ body {
 	font-family: 'Roboto Slab', sans-serif;
 	text-shadow: 1px 1px #ffaa1f;
 	z-index: 10;
+	animation-delay: 0.4s;
 }
 
 .description {
@@ -47,6 +49,7 @@ body {
 	letter-spacing: 2pt;
 	text-shadow: 1px 1px #ffaa1f;
 	z-index: 10;
+	animation-delay: 0.6s;
 }
 
 #header {
@@ -515,6 +518,7 @@ body {
 	top: 30%;
 	transform: translate(-50%,-50%);
 	height: 150px;
+	animation-delay: 0.2s;
 }
 #thankYou {
 	text-align: center;
@@ -533,6 +537,7 @@ body {
 	font-family: 'Roboto Slab', sans-serif;
 	text-shadow: 1px 1px #ffaa1f;
 	z-index: 10;
+	animation-delay: 0.4s;
 }
 #thankYouTag {
 	font-family: 'Noto Sans JP', sans-serif;
@@ -548,4 +553,5 @@ body {
 	letter-spacing: 2pt;
 	text-shadow: 1px 1px #ffaa1f;
 	z-index: 10;
+	animation-delay: 0.6s;
 }
