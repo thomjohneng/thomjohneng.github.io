@@ -255,7 +255,3 @@ var values = $(document).ready(function() {
 	});
 });
 
-/* BEGIN SUBMIT FORM REDIRECT
-document.getElementById("#mc-embedded-subscribe").onclick = function () {
-        location.href = "www..com";
-    };
