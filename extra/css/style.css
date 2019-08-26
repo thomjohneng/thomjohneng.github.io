@@ -308,8 +308,7 @@ header {
 	font-family: 'Roboto Slab', serif;
 	font-size: 13px;
 }
-
-#design p a, #eating p a, #nature p a, #diversity p a, #education p a, #sustainability p a, #health p a {
+#design p a, #eating p a, #nature p a, #diversity p a, #education p a, #sustainability p a, #health p a, #dogsText a {
 	font-weight: 5pt;
 	color: #bbbbbb;
 }
@@ -338,8 +337,6 @@ header {
 
 /* BEGIN VALUES SPECIFIC BOXES */
 #diversity, #education, #sustainability, #health {
-	width: 400px;
-	height: 300px;
 	margin: 15px;
 	border: 5px solid #ffaa1f;
 	border-radius: 10px;
@@ -542,7 +539,8 @@ header {
 #thankYouTag {
 	font-family: 'Noto Sans JP', sans-serif;
 	text-align: center;
-	position: absolute;
+	height: 100px;
+	position: relative;
 	top: 55%;
 	font-size: 20px;
 	letter-spacing: 1px;
@@ -552,4 +550,81 @@ header {
 	text-shadow: 1px 1px #ffaa1f;
 	z-index: 10;
 	animation-delay: 1.2s;
+}
+
+/* BEGIN MEDIA ONLY STYLES */
+@media (max-width: 575.98px) {
+	#title {
+		font-size: 35px;
+	}
+	#description {
+		font-size: 12px;
+		top: 35%;
+	}
+	#menuItems {
+		font-size: 10px;
+	}
+	#aboutBox {
+		width: 80%;
+	}
+	#workTag {
+		font-size: 15px;
+	}
+	#consulting, #startup, #manufacturing, #programs, #activities {
+		width: 200px;
+		height: 100px;
+		display: absolute;
+		left: 50%;
+		transform: translate(-50%,0);
+	}
+	#consulting ul, #startup ul, #manufacturing ul, #programs ul {
+		padding-left: 10px;
+		font-size: 8px;
+	}
+	#activities p {
+		font-size: 15px;
+		text-align: center;
+	}
+	#design, #eating, #nature, #dogs, #diversity, #education, #sustainability, #health {
+		width: 200px;
+		height: 150px;
+		margin: 5px;
+		border: 2px solid #ffaa1f;
+		border-radius: 10px;
+	}
+	#design p, #eating p, #nature p, #diversity p, #education p, #sustainability p, #health p {
+		font-size: 7px;
+		padding-left: 3px;
+		padding-right: 3px;
+		margin-bottom: 0px;
+	}
+	#design h4, #design div h4, #eating h4, #eating div h4, #nature h4, #nature div h4, #dogs h4, #dogsWrapper h4, #diversity h4, #education h4, #sustainability h4, #health h4 {
+		margin: 6px;
+		font-size: 8px;
+		text-align: left;
+		font-family: 'Noto Sans JP', sans-serif;
+		font-weight: 10pt;
+		letter-spacing: 1pt;
+		font-stretch: ultra-expanded;
+	}
+	#carousel {
+		box-shadow: 2px 2px black;
+		width: 150px;
+		height: 100px;
+		margin-bottom: 5px;
+	}
+	#dogsText {
+		font-family: 'Roboto Slab', serif;
+		font-size: 7px;
+	}
+	#contactTag h4 {
+		font-size: 15px;
+	}
+	#credit {
+		font-size: 7px;
+	}
+	#thankYouTag {
+		top: 65%;
+	}
+
 }
