@@ -590,6 +590,10 @@ input:focus {
 		margin: 5px;
 		border: 2px solid #ffaa1f;
 		border-radius: 10px;
+		color: rgba(51, 55, 58, 0);
+	}
+	#design div, #eating div, #nature div, #dogsWrapper, #diversity div, #education div, #sustainability div, #health div {
+		opacity: 1;
 	}
 	#design p, #eating p, #nature p, #diversity p, #education p, #sustainability p, #health p {
 		font-size: 7px;
