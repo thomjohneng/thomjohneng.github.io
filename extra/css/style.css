@@ -237,6 +237,7 @@ header {
 }
 #consulting ul, #startup ul, #manufacturing ul, #programs ul {
 	padding-left: 20px;
+	text-align: left;
 }
 #activities p {
 	font-size: 40px;
