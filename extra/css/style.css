@@ -568,14 +568,12 @@ input:focus {
 		width: 80%;
 	}
 	#workTag {
-		font-size: 15px;
+		font-size: 13px;
 	}
 	#consulting, #startup, #manufacturing, #programs, #activities {
 		width: 200px;
 		height: 100px;
 		display: absolute;
-		left: 50%;
-		transform: translate(-50%,0);
 	}
 	#consulting ul, #startup ul, #manufacturing ul, #programs ul {
 		padding-left: 10px;
