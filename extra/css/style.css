@@ -615,6 +615,9 @@ input:focus {
 		font-family: 'Roboto Slab', serif;
 		font-size: 7px;
 	}
+	#bottomOrangeTriangle {
+		left: 0;
+	}
 	#contactTag h4 {
 		font-size: 15px;
 	}
