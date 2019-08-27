@@ -194,6 +194,10 @@ header {
 	font-family: 'Roboto Slab', serif;
 }
 
+#aboutBody1 a, #aboutBody2 a, #aboutBody3 a {
+	color: #0cb4fa;
+}
+
 /* BEGIN WORK BOX */
 #workBox {
 	width: 80%;
@@ -210,6 +214,7 @@ header {
 #workWrapper {
 	margin: auto;
 	width: 100%;
+	text-align: center;
 }
 #consulting, #startup, #manufacturing, #programs, #activities {
 	width: 300px;
@@ -262,9 +267,10 @@ header {
 	flex-wrap: wrap;
 	justify-content: center;
 	overflow: hidden;
+	z-index: 10;
 }
 
-#design div, #eating div, #nature div, #dogsWrapper{
+#design div, #eating div, #nature div, #dogsWrapper, #diversity div, #education div, #sustainability div, #health div {
 	position: absolute;
 	background-color: #33383a;
 	color: white;
@@ -280,7 +286,7 @@ header {
 	transition: opacity 0.4s ease-in-out;
 }
 
-#design div:hover, #eating div:hover, #nature div:hover, #dogsWrapper:hover {
+#design div:hover, #eating div:hover, #nature div:hover, #dogsWrapper:hover, #diversity div:hover, #education div:hover, #sustainability div:hover, #health div:hover {
 	opacity: 1;
 	-webkit-transition: opacity 0.4s ease-in-out;
 	-moz-transition: opacity 0.4s ease-in-out;
@@ -288,7 +294,7 @@ header {
 	transition: opacity 0.4s ease-in-out;
 }
 
-#design h4, #design div h4, #eating h4, #eating div h4, #nature h4, #nature div h4, #dogs h4, #dogsWrapper h4, #diversity h4, #education h4, #sustainability h4, #health h4 {
+#design h4, #design div h4, #eating h4, #eating div h4, #nature h4, #nature div h4, #dogs h4, #dogsWrapper h4, #diversity h4, #diversity div h4, #education h4, #education div h4, #sustainability h4, #sustainability div h4, #health h4, #health div h4 {
 	margin: 10px;
 	text-align: left;
 	font-family: 'Noto Sans JP', sans-serif;
@@ -310,7 +316,7 @@ header {
 }
 #design p a, #eating p a, #nature p a, #diversity p a, #education p a, #sustainability p a, #health p a, #dogsText a {
 	font-weight: 5pt;
-	color: #bbbbbb;
+	color: #0cb4fa;
 }
 
 /* BEGIN CAROUSEL */
@@ -333,20 +339,6 @@ header {
 	-moz-transition: opacity 0.4s ease-in-out;
 	-o-transition: opacity 0.4s ease-in-out;
 	transition: opacity 0.4s ease-in-out;
-}
-
-/* BEGIN VALUES SPECIFIC BOXES */
-#diversity, #education, #sustainability, #health {
-	margin: 15px;
-	border: 5px solid #ffaa1f;
-	border-radius: 10px;
-	background-color: #33383a;
-	color: white;
-	position: relative;
-	display: inline-block;
-	flex-wrap: wrap;
-	justify-content: center;
-	overflow: hidden;
 }
 
 /* BEGIN CONTACT BOX TEXT DESIGN */
@@ -399,17 +391,24 @@ header {
 	width: 250px;
 	border: 2px solid #ffaa1f;
 	margin-bottom: 10px;
+	box-shadow: 2px 2px #aaaaaa;
 }
 #mc-embedded-subscribe {
 	font-family: 'Noto Sans JP', sans-serif;
 	text-align: center;
-	border-radius: 13px;
-	height: 26px;
-	width: 150px;
-	color: #bbbbbb;
+	border-radius: 18px;
+	border: 2px solid #0cb4fa;
+	height: 36px;
+	width: 200px;
+	background-color: #e2e2e2;
+	color: #33383a;
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%,0);
+	box-shadow: 2px 2px #aaaaaa;
+}
+input:focus {
+	outline: none;
 }
 /* BEGIN CSS FOR ALL BOTTOM-OF-THE-PAGE CONTACT */
 #bottomOrangeTriangle {
@@ -598,7 +597,7 @@ header {
 		padding-right: 3px;
 		margin-bottom: 0px;
 	}
-	#design h4, #design div h4, #eating h4, #eating div h4, #nature h4, #nature div h4, #dogs h4, #dogsWrapper h4, #diversity h4, #education h4, #sustainability h4, #health h4 {
+	#design h4, #design div h4, #eating h4, #eating div h4, #nature h4, #nature div h4, #dogs h4, #dogsWrapper h4, #diversity h4, #diversity div h4, #education h4, #education div h4, #sustainability h4, #sustainability div h4, #health h4, #health div h4{
 		margin: 6px;
 		font-size: 8px;
 		text-align: left;
