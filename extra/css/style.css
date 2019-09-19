@@ -480,6 +480,9 @@ input:focus {
 	cursor: pointer;
 	text-align: bottom center;
 }
+#mail a, #linkedIn a, #insta a, #fb a, #resume a {
+	text-decoration: none;
+}
 #mailIcon, #linkedInIcon, #instaIcon, #fbIcon, #resumeIcon {
 	color: #c8F8FF;
 	display: block;
@@ -498,7 +501,7 @@ input:focus {
 	-o-transition: 0.3s ease-in-out;
 	transition: 0.3s ease-in-out;
 }
-#mailIcon:hover + #mailText, #linkedInIcon:hover + #linkedInText, #instaIcon:hover + #instaText, #fbIcon:hover + #fbText, #resumeIcon:hover + #resumeText {
+#mail:hover #mailText, #linkedIn:hover #linkedInText, #insta:hover #instaText, #fb:hover #fbText, #resume:hover #resumeText {
 	opacity: 1;
 	-webkit-transition: 0.3s ease-in-out;
 	-moz-transition: 0.3s ease-in-out;
